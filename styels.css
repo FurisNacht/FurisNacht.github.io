@@ -1,0 +1,153 @@
+.page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+body {
+	position: relative;
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 16px;
+	line-height: 1.4;
+	color: #000;
+	min-width: 320px;
+	overflow-x: hidden;
+	height: auto;
+    margin: 0%; padding: 0%;
+    background-color: aliceblue;;
+}
+
+.navbar{
+    width: 100%;
+    height: 70px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, .1);
+}
+
+.navbar .container {
+    height: inherit;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(255, 255, 255)
+}
+
+.navbar-menu {
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.navbar-menu li {
+    display: inline-block;
+}
+
+.navbar-menu li a {
+    display: inline-block;
+    color: #000;
+    opacity: 0.5;
+    text-decoration: none;
+    padding: 10px;
+    transition: all .5s ease-in-out;
+}
+.navbar-menu li a:hover {
+    opacity: 1;
+}
+
+.navbar-wrap {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.hotcall {
+    margin-left: 30px;
+    padding: 10px 30px;
+    background-color: rgb(255, 127, 80);
+    border-radius: 100px;
+    color: white;
+    text-decoration: none;
+    transition: all .3s ease-in-out;
+    display: flex;
+    align-items: center;
+}
+.hotcall:hover {
+    transform: scale(1.04);
+}
+
+.navbar-brend {
+    font-weight: 700;
+    font-size: 27px;
+    text-decoration: none;
+    color: #000;
+    transition: all .5s ease-in-out;
+}
+.navbar-brend:hover {
+    color: #70cfff
+}
+
+.description{
+    margin: auto;
+    font-size: 30px;
+
+}
+
+.ots{
+    width: 1000px
+}
+
+.ocoben {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    padding-top: 15px;
+    
+}
+
+.cpicok {
+    padding: 10px;
+    margin: 10px;
+    font-size: 40px;
+    list-style-type: none;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.text_razkaz {
+    font-size: 30px;
+    text-align: center;
+    margin: 30px;
+    margin-left: 70px;
+    margin-right: 70px;
+    display: flex;
+    justify-content: space-around
+}
+
+.eda {
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.downlade{
+    margin-left: 800px;
+    margin-right: 800px;
+    padding: 10px 30px;
+    background-color: #5087ff;
+    border-radius: 100px;
+    color: white;
+    text-decoration: none;
+    transition: all .3s ease-in-out;
+    display: flex;
+    justify-content: space-around;
+}
+
+.downlade:hover {
+    transform: scale(1.04);
+}
+
+.footer {
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+    
+}
